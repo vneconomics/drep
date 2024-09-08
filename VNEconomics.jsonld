@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "VNEconomics",
+    "motivations": "With my personal and professional experiences I think if I become a Drep, I can support a lot of Cardano holders to chose the right proposals, especially it is relative to marketing field.  \n\nI have over 08 years of experience in the Marketing field, specializing in Digital Marketing. I got MBA degree and currently, I am a full-time Lecturer at Nguyen Tat Thanh University, where I have the opportunity to share my knowledge and expertise with potential marketers.\n\nThroughout my career, I have developed a strong proficiency in various aspects of Digital Marketing. I possess extensive knowledge and hands-on experience in website development using WordPress, as well as implementing effective SEO strategies to optimize online visibility and drive organic traffic. I am passionate about staying up-to-date with the latest digital trends, tools, and techniques, allowing me to consistently deliver impactful marketing campaigns.",
+    "objectives": "As a DRep, my primary objective is to increase global awareness of the Cardano ecosystem, making it accessible and understood by a broader audience. I aim to leverage decentralized marketing strategies that promote transparency, privacy, and community-driven growth. By supporting projects that highlight Cardano's strengths - such as its scalability, sustainability, and real-world use cases - I will help attract more users, developers, and enterprises. This includes collaborating with influencers, expanding partnerships, and educating the public on how Cardano's blockchain technology can revolutionize various industries",
+    "paymentAddress": "addr1qy5u4muy6e4mjjx3mvlvr2rzazcqdu5f8d45vd26ar2x5ft0xputp4kf07897usphy999e8qwan9c3avru2tmp4yk84sexg88v",
+    "qualifications": "- Full-time Lecture at Nguyen Tat Thanh University\n- Google Scholar: https://scholar.google.com/citations?user=e-69HSYAAAAJ&hl=en\nMBA degree, ex-KPMG\n- Funded Proposer in fund 8, 9: Cardano Annual Market Report & Cardano Forest - blocktree.asia\n- Cardano Community Advisor (Fund 8,9,10,11,12)\n- 08 years of experience in Marketing\n- 05 years of experience in Digital Marketing (Strongest in WordPress, SEO, Social and Community Marketing)\n- 04 years of experience in the Blockchain Industry\n- Founder www.vneconomics.com (objective is to increase cognition of Vietnamese about Blockchain Technology)\n= Co-Founder https://blocktree.asia/en/ (A blockchain-based platform connecting Sponsors and Planters to authenticate reforestation work)\n- Linked In: https://www.linkedin.com/in/tranthanhtung37/",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "My Linked In Profile",
+        "uri": "https://www.linkedin.com/in/tranthanhtung37/"
+      },
+      {
+        "@type": "Link",
+        "label": "My website",
+        "uri": "https://vneconomics.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "My X profile",
+        "uri": "https://twitter.com/ThanhTung78"
+      },
+      {
+        "@type": "Identity",
+        "label": "Profile",
+        "uri": "https://www.linkedin.com/in/tranthanhtung37/"
+      }
+    ]
+  }
+}
